@@ -1,0 +1,32 @@
+name: danger-ci
+
+on:
+  pull_request:
+    branches: "*"
+
+jobs:
+  build:
+    # 実行環境はmacosに設定
+    runs-on: macos-latest
+
+    steps:
+      # チェックアウト(リポジトリからソースコードを取得)
+      - uses: actions/checkout@v4.2.2
+
+      # danger jsのインストール
+      - name: Install Danger JS
+        run: npm install -g danger
+
+      # Dangerモジュールをビルド
+      - name: Build Swift Package
+        run: swift build -c release
+        working-directory: Dangerfile
+
+      # dangerを実行
+      - name: Analytics with danger
+        run: |
+          swift run -c release danger-swift ci --cwd ../
+        working-directory: Dangerfile
+        env:
+          # Dangerはプルリクエストを読み取ってコメントをするので、必要な権限を持ったGithubトークンを渡してあげる必要がある
+          DANGER_GITHUB_API_TOKEN: ${{ secrets.DANGER_BOT_GITHUB_TOKEN }}
