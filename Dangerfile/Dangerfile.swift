@@ -14,6 +14,6 @@ if let body = danger.github.pullRequest.body, body.count < 5 {
 
 // 変更行が500行を超える場合に警告を出す
 let changeFilesCount = danger.github.pullRequest.additions ?? 0
-if additions > 500 {
-    warn("変更行数が500行を超えています。PRを小さく分けられるか検討してください。")
+if changeFilesCount > 500 {
+    warn("変更行数が500行を超えています(修正行: \(changeFilesCount))。PRを小さく分けられるか検討してください。")
 }
