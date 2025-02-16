@@ -6,9 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Dangerfile",
     products: [
-        .library(name: "Danger",
-                type: .dynamic,
-                targets: ["Dangerfile"]),
+        .library(name: "Danger", type: .dynamic, targets: ["Dangerfile"]),
     ],
     dependencies: [.package(url: "https://github.com/danger/swift.git", exact: "3.21.1")],
     targets: [
