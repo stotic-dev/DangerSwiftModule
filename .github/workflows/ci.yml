@@ -1,0 +1,24 @@
+name: danger-ci
+
+on:
+  pull_request:
+    branches: "*"
+    #   - "BR_develop**"
+    #   - "BR_topic/**"
+
+jobs:
+  build:
+    # 実行環境はmacosに設定
+    runs-on: macos-latest
+
+    steps:
+      # チェックアウト(リポジトリからソースコードを取得)
+      - uses: actions/checkout@v4.2.2
+
+      # dangerを実行
+      - name: Analytics with danger
+        run: |
+          bundle exec danger
+        env:
+          # Dangerはプルリクエストを読み取ってコメントをするので、必要な権限を持ったGithubトークンを渡してあげる必要がある
+          DANGER_GITHUB_API_TOKEN: ${{secrets.DANGER_GITHUB_TOKEN}}
