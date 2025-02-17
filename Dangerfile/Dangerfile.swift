@@ -19,4 +19,10 @@ if changeFilesCount > 500 {
 }
 
 // SwiftLintの設定
-SwiftLint.lint(inline: true)
+let swiftLintCmdPath = ".build/artifacts/swiftlintplugins/SwiftLintBinary/SwiftLintBinary.artifactbundle/swiftlint-0.58.2-macos/bin/swiftlint"
+let targetDirectories = ["DangerSample"]
+SwiftLint.lint(swiftlintPath: swiftLintCmdPath)
+for directory in targetDirectories {
+    SwiftLint.lint(.modifiedAndCreatedFiles(directory: directory), inline: true)
+}
+
