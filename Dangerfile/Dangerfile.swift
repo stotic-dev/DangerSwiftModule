@@ -17,3 +17,6 @@ let changeFilesCount = danger.github.pullRequest.additions ?? 0
 if changeFilesCount > 500 {
     warn("変更行数が500行を超えています(修正行: \(changeFilesCount))。PRを小さく分けられるか検討してください。")
 }
+
+// SwiftLintの設定
+SwiftLint.lint(inline: true)

@@ -8,8 +8,14 @@ let package = Package(
     products: [
         .library(name: "Danger", type: .dynamic, targets: ["Dangerfile"]),
     ],
-    dependencies: [.package(url: "https://github.com/danger/swift.git", exact: "3.21.1")],
+    dependencies: [
+        .package(url: "https://github.com/danger/swift.git", exact: "3.21.1"),
+        .package(url: "https://github.com/SimplyDanny/SwiftLintPlugins", exact: "0.58.2")
+    ],
     targets: [
-        .target(name: "Dangerfile", dependencies: [.product(name: "Danger", package: "swift")]),
+        .target(name: "Dangerfile",
+                dependencies: [
+                    .product(name: "Danger", package: "swift")
+                ]),
     ]
 )
