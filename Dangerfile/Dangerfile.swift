@@ -19,11 +19,20 @@ if changeFilesCount > 500 {
 }
 
 // SwiftLintの設定
+
+struct LintTarget {
+    let directory: String
+    let configPath: String
+}
+
 let swiftLintCmdPath = ".build/artifacts/swiftlintplugins/SwiftLintBinary/SwiftLintBinary.artifactbundle/swiftlint-0.58.2-macos/bin/swiftlint"
-let targetDirectories = ["DangerSample"]
-for directory in targetDirectories {
-    let violations = SwiftLint.lint(.modifiedAndCreatedFiles(directory: directory),
+let targets: [LintTarget] = [
+    LintTarget(directory: "DangerSample", configPath: "DangerSample/.swiftlint.yml")
+]
+for target in targets {
+    let violations = SwiftLint.lint(.modifiedAndCreatedFiles(directory: target.directory),
                                     inline: true,
+                                    configFile: target.configPath,
                                     quiet: false,
                                     swiftlintPath: swiftLintCmdPath)
     message("SwiftLintでの指摘数は\(violations.count)件です。")
