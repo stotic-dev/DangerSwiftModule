@@ -26,7 +26,7 @@ struct LintTarget {
 }
 
 let swiftLintCmdPath = ".build/artifacts/swiftlintplugins/SwiftLintBinary/SwiftLintBinary.artifactbundle/swiftlint-0.58.2-macos/bin/swiftlint"
-let lintPath = SwiftLint.SwiftlintPath.bin(swiftLintCmdPath)
+let lintPath = SwiftLint.SwiftlintPath.swiftPackage("$(pwd)/Dangerfile")
 let targets: [LintTarget] = [
     LintTarget(directory: "DangerSample", configPath: "../DangerSample/.swiftlint.yml")
 ]
