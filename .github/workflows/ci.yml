@@ -31,6 +31,11 @@ jobs:
         run: swift build -c release
         working-directory: Dangerfile
 
+      - name: Check SwiftLint Version
+        run: |
+          .build/artifacts/swiftlintplugins/SwiftLintBinary/SwiftLintBinary.artifactbundle/swiftlint-0.58.2-macos/bin/swiftlint --version
+        working-directory: Dangerfile
+
       # dangerを実行
       - name: Analytics with danger
         run: |
