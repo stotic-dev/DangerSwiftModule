@@ -26,15 +26,15 @@ struct LintTarget {
 }
 
 let swiftLintCmdPath = ".build/artifacts/swiftlintplugins/SwiftLintBinary/SwiftLintBinary.artifactbundle/swiftlint-0.58.2-macos/bin/swiftlint"
+let lintPath = SwiftLint.SwiftlintPath.bin(swiftLintCmdPath)
 let targets: [LintTarget] = [
     LintTarget(directory: "DangerSample", configPath: "DangerSample/.swiftlint.yml")
 ]
+
 for target in targets {
-    let violations = SwiftLint.lint(.modifiedAndCreatedFiles(directory: target.directory),
-                                    inline: true,
+    let violations = SwiftLint.lint(inline: true,
                                     configFile: target.configPath,
                                     quiet: false,
-                                    swiftlintPath: swiftLintCmdPath)
+                                    swiftlintPath: lintPath)
     message("SwiftLintでの指摘数は\(violations.count)件です。")
 }
-
