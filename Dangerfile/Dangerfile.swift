@@ -35,7 +35,7 @@ for target in targets {
     
     let violations = SwiftLint.lint(.modifiedAndCreatedFiles(directory: target.directory),
                                     inline: true,
-//                                    configFile: target.configPath,
+                                    configFile: target.configPath,
                                     quiet: false,
                                     swiftlintPath: lintPath)
     message("SwiftLintでの指摘数は\(violations.count)件です。")

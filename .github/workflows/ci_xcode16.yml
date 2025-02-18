@@ -2,7 +2,7 @@ name: danger-ci_xcode_16
 
 on:
   pull_request:
-    branches: "*"
+    branches: "xcode_16/*"
 
 jobs:
   build:
