@@ -38,5 +38,11 @@ for target in targets {
                                     configFile: target.configPath,
                                     quiet: false,
                                     swiftlintPath: lintPath)
+    let violations2 = SwiftLint.lint(.all(directory: target.directory),
+                                    inline: true,
+                                    configFile: target.configPath,
+                                    quiet: false,
+                                    swiftlintPath: lintPath)
     message("SwiftLintでの指摘数は\(violations.count)件です。")
+    message("SwiftLintでの指摘数は\(violations2.count)件です。(2)")
 }
