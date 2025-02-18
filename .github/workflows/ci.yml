@@ -10,8 +10,15 @@ jobs:
     runs-on: macos-latest
 
     steps:
+      # fetch-depth の計算
+      - run: echo "fetch_depth=$(( commits + 1 ))" >> $GITHUB_ENV
+        env:
+          commits: ${{ github.event.pull_request.commits }}
+
       # チェックアウト(リポジトリからソースコードを取得)
       - uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: ${{ env.fetch_depth }}
 
       # danger jsのインストール
       - name: Install Danger JS
