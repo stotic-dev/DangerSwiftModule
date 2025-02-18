@@ -32,9 +32,9 @@ let targets: [LintTarget] = [
 ]
 
 for target in targets {
-    let violations = SwiftLint.lint(.all(directory: target.directory),
+    let violations = SwiftLint.lint(.all(directory: nil),
                                     inline: true,
-                                    configFile: target.configPath,
+//                                    configFile: target.configPath,
                                     quiet: false,
                                     swiftlintPath: lintPath)
     message("SwiftLintでの指摘数は\(violations.count)件です。")
