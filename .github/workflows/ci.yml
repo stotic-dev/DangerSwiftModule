@@ -28,13 +28,13 @@ jobs:
 
       # Dangerモジュールをビルド
       - name: Build Swift Package
-        run: swift build
+        run: swift build -c release
         working-directory: Dangerfile
 
       # dangerを実行
       - name: Analytics with danger
         run: |
-          swift run --disable-sandbox --skip-build  --very-verbose danger-swift ci --cwd ../ --verbose --failOnErrors --no-publish-check
+          swift run -c release --disable-sandbox --skip-build  --very-verbose danger-swift ci --cwd ../ --verbose --failOnErrors --no-publish-check
         working-directory: Dangerfile
         env:
           # Dangerはプルリクエストを読み取ってコメントをするので、必要な権限を持ったGithubトークンを渡してあげる必要がある
