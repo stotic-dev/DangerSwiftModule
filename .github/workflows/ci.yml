@@ -20,11 +20,16 @@ jobs:
         with:
           fetch-depth: ${{ env.fetch_depth }}
 
-      - run: git diff ${{ github.event.pull_request.base.sha }}
-
       # danger jsのインストール
       - name: Install Danger JS
         run: npm install -g danger
+
+      - uses: actions/cache@v2
+        with:
+          path: Dangerfile/Package.resolved
+          key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
+          restore-keys: |
+            ${{ runner.os }}-spm-
 
       # Dangerモジュールをビルド
       - name: Build Swift Package
@@ -34,7 +39,7 @@ jobs:
       # dangerを実行
       - name: Analytics with danger
         run: |
-          swift run --disable-sandbox -v danger-swift ci --cwd ../ --verbose --failOnErrors --no-publish-check
+          swift run --disable-sandbox danger-swift ci --cwd ../ --verbose --failOnErrors --no-publish-check
         working-directory: Dangerfile
         env:
           # Dangerはプルリクエストを読み取ってコメントをするので、必要な権限を持ったGithubトークンを渡してあげる必要がある
