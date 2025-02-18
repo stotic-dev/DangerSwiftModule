@@ -8,7 +8,7 @@ if danger.github.pullRequest.title.contains("WIP") {
 }
 
 // PRの説明が短すぎる場合に警告を出す
-if let body = danger.github.pullRequest.body, body.count < 5 {
+if let body = danger.github.pullRequest.body, body.count < 100 {
     warn("PRの説明が短すぎます。詳細を追加してください。")
 }
 
@@ -22,6 +22,10 @@ if changeFilesCount > 500 {
 let swiftLintCmdPath = ".build/artifacts/swiftlintplugins/SwiftLintBinary/SwiftLintBinary.artifactbundle/swiftlint-0.58.2-macos/bin/swiftlint"
 let targetDirectories = ["DangerSample"]
 for directory in targetDirectories {
-    SwiftLint.lint(.modifiedAndCreatedFiles(directory: directory), inline: true, swiftlintPath: swiftLintCmdPath)
+    let violations = SwiftLint.lint(.modifiedAndCreatedFiles(directory: directory),
+                                    inline: true,
+                                    quiet: false,
+                                    swiftlintPath: swiftLintCmdPath)
+    message("SwiftLintでの指摘数は\(violations.count)件です。")
 }
 

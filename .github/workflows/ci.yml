@@ -25,7 +25,7 @@ jobs:
       # dangerを実行
       - name: Analytics with danger
         run: |
-          swift run -c release danger-swift ci --cwd ../
+          swift run -c release danger-swift ci --cwd ../ --verbose
         working-directory: Dangerfile
         env:
           # Dangerはプルリクエストを読み取ってコメントをするので、必要な権限を持ったGithubトークンを渡してあげる必要がある
