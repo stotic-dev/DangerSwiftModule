@@ -31,17 +31,17 @@ let targets: [LintTarget] = [
     LintTarget(directory: "../DangerSample", configPath: "../DangerSample/.swiftlint.yml")
 ]
 
+let changeFiles = (danger.git.createdFiles + danger.git.modifiedFiles).filter { $0.fileType == .swift }
 for target in targets {
     
-    let violations = SwiftLint.lint(.modifiedAndCreatedFiles(directory: target.directory),
+    let targetFiles = changeFiles.filter { $0.hasPrefix(target.directory) }
+    let violations = SwiftLint.lint(.files(targetFiles),
                                     inline: true,
                                     configFile: target.configPath,
                                     quiet: false,
                                     swiftlintPath: lintPath)
-    // let violations = SwiftLint.lint(.all(directory: target.directory),
-    //                                 inline: true,
-    //                                 configFile: target.configPath,
-    //                                 quiet: false,
-    //                                 swiftlintPath: lintPath)
-    message("SwiftLintでの指摘数は\(violations.count)件です。")
+    message("SwiftLintでの対象ファイル数は\(targetFiles.count), 指摘数は\(violations.count)件です。")
+    targetFiles.forEach {
+        message("SwiftLint対象ファイル: " + $0.name)
+    }
 }
