@@ -20,7 +20,7 @@ jobs:
         with:
           fetch-depth: ${{ env.fetch_depth }}
 
-      - run: git diff ${{ github.event.pull_request.base.sha }} --name-only
+      - run: git diff ${{ github.event.pull_request.base.sha }}
 
       # danger jsのインストール
       - name: Install Danger JS
