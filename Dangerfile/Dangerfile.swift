@@ -32,7 +32,8 @@ let targets: [LintTarget] = [
 ]
 
 for target in targets {
-    let violations = SwiftLint.lint(inline: true,
+    let violations = SwiftLint.lint(.all(directory: target.directory),
+                                    inline: true,
                                     configFile: target.configPath,
                                     quiet: false,
                                     swiftlintPath: lintPath)
