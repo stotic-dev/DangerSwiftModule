@@ -34,7 +34,7 @@ jobs:
       # dangerを実行
       - name: Analytics with danger
         run: |
-          swift run --disable-sandbox --very-verbose danger-swift ci --cwd ../ --verbose --failOnErrors --no-publish-check
+          swift run --disable-sandbox -v danger-swift ci --cwd ../ --verbose --failOnErrors --no-publish-check
         working-directory: Dangerfile
         env:
           # Dangerはプルリクエストを読み取ってコメントをするので、必要な権限を持ったGithubトークンを渡してあげる必要がある
