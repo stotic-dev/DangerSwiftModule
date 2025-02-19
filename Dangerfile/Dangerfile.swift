@@ -25,13 +25,12 @@ struct LintTarget {
     let configPath: String
 }
 
-let swiftLintCmdPath = ".build/artifacts/swiftlintplugins/SwiftLintBinary/SwiftLintBinary.artifactbundle/swiftlint-0.58.2-macos/bin/swiftlint"
-let lintPath = SwiftLint.SwiftlintPath.swiftPackage("$(pwd)")
+let lintPath = SwiftLint.SwiftlintPath.swiftPackage(".")
 let targets: [LintTarget] = [
     LintTarget(directory: "DangerSample", configPath: "../DangerSample/.swiftlint.yml")
 ]
-
 let changeFiles = (danger.git.createdFiles + danger.git.modifiedFiles).filter { $0.fileType == .swift }
+
 for target in targets {
     
     let targetFiles = changeFiles.filter { $0.hasPrefix(target.directory) }
