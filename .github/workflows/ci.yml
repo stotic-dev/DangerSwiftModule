@@ -1,4 +1,4 @@
-name: danger-ci
+name: danger-ci_xcode_16
 
 on:
   pull_request:
@@ -20,13 +20,25 @@ jobs:
         with:
           fetch-depth: ${{ env.fetch_depth }}
 
+      # Xcodeのバージョン一覧を出力
+      - name: Show Xcode list
+        run: ls /Applications | grep 'Xcode'
+
+      # Xcodeのバージョンを指定
+      - name: Set Xcode Path
+        run: sudo xcode-select --switch /Applications/Xcode_16.2.app/Contents/Developer
+
+      # 現在のXcodeバージョンを確認
+      - name: Show Xcode version
+        run: xcodebuild -version
+
       # danger jsのインストール
       - name: Install Danger JS
         run: npm install -g danger
 
       - uses: actions/cache@v4
         with:
-          path: Dangerfile/Package.resolved
+          path: Package.resolved
           key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
           restore-keys: |
             ${{ runner.os }}-spm-
@@ -34,13 +46,11 @@ jobs:
       # Dangerモジュールをビルド
       - name: Build Swift Package
         run: swift build
-        working-directory: Dangerfile
 
       # dangerを実行
       - name: Analytics with danger
         run: |
-          swift run --disable-sandbox danger-swift ci --cwd ../ --verbose --failOnErrors --no-publish-check
-        working-directory: Dangerfile
+          swift run --disable-sandbox danger-swift ci
         env:
           # Dangerはプルリクエストを読み取ってコメントをするので、必要な権限を持ったGithubトークンを渡してあげる必要がある
           DANGER_GITHUB_API_TOKEN: ${{ secrets.DANGER_BOT_GITHUB_TOKEN }}

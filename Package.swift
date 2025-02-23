@@ -7,23 +7,19 @@ let package = Package(
     name: "Dangerfile",
     platforms: [.macOS(.v14)],
     products: [
-        .library(name: "DangerDeps", type: .dynamic, targets: ["Dangerfile", "SwiftLintDependencies"]),
+        .library(name: "DangerDeps",
+                 type: .dynamic,
+                 targets: ["Dangerfile"]),
     ],
     dependencies: [
         .package(url: "https://github.com/danger/swift.git", exact: "3.21.1"),
-        .package(url: "https://github.com/Realm/SwiftLint", from: "0.58.2")
+        .package(url: "https://github.com/SimplyDanny/SwiftLintPlugins", exact: "0.58.2"),
     ],
     targets: [
         .target(
             name: "Dangerfile",
             dependencies: [
                 .product(name: "Danger", package: "swift")
-            ]
-        ),
-        .target(
-            name: "SwiftLintDependencies",
-            dependencies: [
-                .product(name: "swiftlint", package: "SwiftLint"),
             ]
         )
     ]
