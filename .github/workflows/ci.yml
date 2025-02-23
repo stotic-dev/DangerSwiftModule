@@ -36,10 +36,6 @@ jobs:
       - name: Install Danger JS
         run: npm install -g danger
 
-      # Dangerモジュールをビルド
-      - name: Build Swift Package
-        run: swift build
-
       # dangerを実行
       - name: Analytics with danger
         run: |
