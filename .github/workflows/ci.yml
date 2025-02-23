@@ -36,13 +36,6 @@ jobs:
       - name: Install Danger JS
         run: npm install -g danger
 
-      - uses: actions/cache@v4
-        with:
-          path: Package.resolved
-          key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
-          restore-keys: |
-            ${{ runner.os }}-spm-
-
       # Dangerモジュールをビルド
       - name: Build Swift Package
         run: swift build
