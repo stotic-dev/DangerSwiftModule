@@ -43,8 +43,7 @@ jobs:
 
       # dangerを実行
       - name: Analytics with danger
-        run: swift run danger-swift ci
-        working-directory: Dangerfile
+        run: swift run --package-path Dangerfile danger-swift ci --dangerfile Dangerfile/Dangerfile.swift
         env:
           # Dangerはプルリクエストを読み取ってコメントをするので、必要な権限を持ったGithubトークンを渡してあげる必要がある
           DANGER_GITHUB_API_TOKEN: ${{ secrets.DANGER_BOT_GITHUB_TOKEN }}
