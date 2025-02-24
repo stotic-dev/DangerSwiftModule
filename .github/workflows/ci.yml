@@ -40,8 +40,8 @@ jobs:
       - name: build spm danger
         run: |
           swift build
-          ls -l .build/debug
-          mv .build/libDangerDeps.dylib ../.build/libDangerDeps.dylib
+          ls -l .build/arm64-apple-macosx/debug
+          mv .build/arm64-apple-macosx/debug/libDangerDeps.dylib ../.build/debug/libDangerDeps.dylib
         working-directory: Dangerfile
 
       # dangerを実行
