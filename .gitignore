@@ -31,7 +31,8 @@ playground.xcworkspace
 
 # .build/
 Dangerfile/.build/checkouts/
-*/workspace-state.json
+# */workspace-state.json
+# Dangerfile/.build/plugins/cache/SwiftLintCommandPlugin-state.json
 
 # CocoaPods
 #
