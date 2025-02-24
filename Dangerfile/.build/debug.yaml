@@ -17,8 +17,8 @@ targets:
   "RunnerLib-arm64-apple-macosx15.0-debug.module": ["<RunnerLib-arm64-apple-macosx15.0-debug.module>"]
   "Version-arm64-apple-macosx15.0-debug.module": ["<Version-arm64-apple-macosx15.0-debug.module>"]
   "danger-swift-arm64-apple-macosx15.0-debug.exe": ["<danger-swift-arm64-apple-macosx15.0-debug.exe>"]
-  "main": ["<DangerDeps-arm64-apple-macosx15.0-debug.dylib>","<Dangerfile-arm64-apple-macosx15.0-debug.module>"]
-  "test": ["<DangerDeps-arm64-apple-macosx15.0-debug.dylib>","<Dangerfile-arm64-apple-macosx15.0-debug.module>"]
+  "main": ["<DangerDeps-arm64-apple-macosx15.0-debug.dylib>","<Dangerfile-arm64-apple-macosx15.0-debug.module>","<danger-swift-arm64-apple-macosx15.0-debug.exe>"]
+  "test": ["<DangerDeps-arm64-apple-macosx15.0-debug.dylib>","<Dangerfile-arm64-apple-macosx15.0-debug.module>","<danger-swift-arm64-apple-macosx15.0-debug.exe>"]
 default: "main"
 nodes:
   "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/Sources/Dangerfile/":
