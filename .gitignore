@@ -29,7 +29,10 @@ playground.xcworkspace
 # hence it is not needed unless you have added a package configuration file to your project
 # .swiftpm
 
-.build/
+# .build/
+.build/checkouts
+# */workspace-state.json
+# Dangerfile/.build/plugins/cache/SwiftLintCommandPlugin-state.json
 
 # CocoaPods
 #
