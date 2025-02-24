@@ -38,7 +38,10 @@ jobs:
 
       # dangerビルド
       - name: build spm danger
-        run: swift build
+        run: |
+          swift build
+          ls -l .build/debug
+          mv .build/libDangerDeps.dylib ../.build/libDangerDeps.dylib
         working-directory: Dangerfile
 
       # dangerを実行
