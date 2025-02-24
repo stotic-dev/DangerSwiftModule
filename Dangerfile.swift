@@ -30,9 +30,6 @@ let lintPath = SwiftLint.SwiftlintPath.bin("Dangerfile/.build/artifacts/swiftlin
  let targets: [LintTarget] = [
      LintTarget(directory: "DangerSample", configPath: "DangerSample/.swiftlint.yml")
  ]
- let changeFiles = (danger.git.createdFiles + danger.git.modifiedFiles)
-     .filter { $0.fileType == .swift }
-     .map { "../" + $0 }
 
  for target in targets {
      let _ = SwiftLint.lint(.modifiedAndCreatedFiles(directory: target.directory),
