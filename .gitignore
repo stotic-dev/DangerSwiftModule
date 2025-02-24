@@ -30,7 +30,7 @@ playground.xcworkspace
 # .swiftpm
 
 # .build/
-.build/checkouts/
+Dangerfile/.build/checkouts/
 
 # CocoaPods
 #

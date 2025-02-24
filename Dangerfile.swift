@@ -21,23 +21,23 @@ if let github = danger.github {
 
 // SwiftLintの設定
 
-//  struct LintTarget {
-//      let directory: String
-//      let configPath: String
-//  }
+ struct LintTarget {
+     let directory: String
+     let configPath: String
+ }
 
-// let lintPath = SwiftLint.SwiftlintPath.bin(".build/artifacts/swiftlintplugins/SwiftLintBinary/SwiftLintBinary.artifactbundle/swiftlint-0.58.2-macos/bin/swiftlint")
-//  let targets: [LintTarget] = [
-//      LintTarget(directory: "DangerSample", configPath: "DangerSample/.swiftlint.yml")
-//  ]
-//  let changeFiles = (danger.git.createdFiles + danger.git.modifiedFiles)
-//      .filter { $0.fileType == .swift }
-//      .map { "../" + $0 }
+let lintPath = SwiftLint.SwiftlintPath.bin("Dangerfile/.build/artifacts/swiftlintplugins/SwiftLintBinary/SwiftLintBinary.artifactbundle/swiftlint-0.58.2-macos/bin/swiftlint")
+ let targets: [LintTarget] = [
+     LintTarget(directory: "DangerSample", configPath: "DangerSample/.swiftlint.yml")
+ ]
+ let changeFiles = (danger.git.createdFiles + danger.git.modifiedFiles)
+     .filter { $0.fileType == .swift }
+     .map { "../" + $0 }
 
-//  for target in targets {
-//      let _ = SwiftLint.lint(.modifiedAndCreatedFiles(directory: target.directory),
-//                             inline: true,
-//                             configFile: target.configPath,
-//                             quiet: true,
-//                             swiftlintPath: lintPath)
-//  }
+ for target in targets {
+     let _ = SwiftLint.lint(.modifiedAndCreatedFiles(directory: target.directory),
+                            inline: true,
+                            configFile: target.configPath,
+                            quiet: true,
+                            swiftlintPath: lintPath)
+ }
