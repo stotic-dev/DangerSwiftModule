@@ -37,12 +37,12 @@ jobs:
         run: npm install -g danger
 
       # dangerビルド
-      - name: build spm danger
-        run: |
-          swift build
-          ls -l .build/arm64-apple-macosx/debug
-          mv .build/arm64-apple-macosx/debug/libDangerDeps.dylib ../.build/debug/libDangerDeps.dylib
-        working-directory: Dangerfile
+      # - name: build spm danger
+      #   run: |
+      #     swift build
+      #     ls -l .build/arm64-apple-macosx/debug
+      #     mv .build/arm64-apple-macosx/debug/libDangerDeps.dylib ../.build/debug/libDangerDeps.dylib
+      #   working-directory: Dangerfile
 
       # dangerを実行
       - name: Analytics with danger
