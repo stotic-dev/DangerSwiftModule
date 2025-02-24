@@ -81,10 +81,11 @@
     "__CFBundleIdentifier" : "com.microsoft.VSCode",
     "__CF_USER_TEXT_ENCODING" : "0x1F5:0x1:0xE"
   },
-  "output" : "error: emit-module command failed with exit code 1 (use -v to see invocation)\n<unknown>:0: error: error opening input file '/Users/satoutaichi/work/swift/DangerSwiftModule/.build/checkouts/SwiftLintPlugins/Plugins/SwiftLintBuildToolPlugin/Path+Helpers.swift' (No such file or directory)\n<unknown>:0: error: error opening input file '/Users/satoutaichi/work/swift/DangerSwiftModule/.build/checkouts/SwiftLintPlugins/Plugins/SwiftLintBuildToolPlugin/SwiftLintBuildToolPlugin.swift' (No such file or directory)\n<unknown>:0: error: error opening input file '/Users/satoutaichi/work/swift/DangerSwiftModule/.build/checkouts/SwiftLintPlugins/Plugins/SwiftLintBuildToolPlugin/SwiftLintBuildToolPluginError.swift' (No such file or directory)\n",
+  "inputHash" : "170c3b182f00adf7ffe849ea14c6e086732b88cc87b910adebf60a8ae87738f9",
+  "output" : "",
   "result" : {
     "exit" : {
-      "code" : 1
+      "code" : 0
     }
   }
 }
