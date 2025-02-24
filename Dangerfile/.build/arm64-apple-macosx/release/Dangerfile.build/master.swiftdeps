@@ -1,0 +1,6 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "67b9d2df9a6dde71f6e2a0b77eb9aa02e06d86d42acf0c19836af425bede356f"
+build_start_time: [1740366833, 64897000]
+build_end_time: [1740366835, 70186000]
+inputs:
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/Sources/Dangerfile/Fake.swift": [1739704415, 85773128]

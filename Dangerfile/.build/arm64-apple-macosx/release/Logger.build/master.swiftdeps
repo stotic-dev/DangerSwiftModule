@@ -1,0 +1,6 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "9b696429f2b396ea0d61a77638ba4a9887afb3fe2e60a0f960b3786477a91eab"
+build_start_time: [1740366820, 127176000]
+build_end_time: [1740366823, 3502000]
+inputs:
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/Logger/Sources/Logger/Logger.swift": [1740366389, 567097952]

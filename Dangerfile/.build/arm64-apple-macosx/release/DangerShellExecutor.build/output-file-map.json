@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/DangerShellExecutor.build/DangerShellExecutor.d",
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/DangerShellExecutor.build/DangerShellExecutor.o",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/DangerShellExecutor.build/master.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/DangerShellExecutor/ShellExecutor.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/DangerShellExecutor.build/ShellExecutor.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/DangerShellExecutor.build/ShellExecutor~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/DangerShellExecutor.build/ShellExecutor.swiftdeps"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "": {
+    "dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/Danger.d",
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/Danger.o",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/master.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/BitBucketCloud.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/BitBucketCloud.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/BitBucketCloud~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/BitBucketCloud.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/BitBucketMetadata.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/BitBucketMetadata.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/BitBucketMetadata~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/BitBucketMetadata.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/BitBucketServerDSL.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/BitBucketServerDSL.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/BitBucketServerDSL~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/BitBucketServerDSL.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/Danger.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/Danger.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/Danger~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/Danger.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/DangerDSL.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/DangerDSL.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/DangerDSL~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/DangerDSL.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/DangerResults.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/DangerResults.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/DangerResults~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/DangerResults.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/DangerUtils.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/DangerUtils.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/DangerUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/DangerUtils.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/Extensions/DateFormatterExtensions.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/DateFormatterExtensions.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/DateFormatterExtensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/DateFormatterExtensions.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/Extensions/NSRegularExpressionExtensions.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/NSRegularExpressionExtensions.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/NSRegularExpressionExtensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/NSRegularExpressionExtensions.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/File.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/File.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/File~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/File.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/GitDSL.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/GitDSL.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/GitDSL~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/GitDSL.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/GitDiff.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/GitDiff.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/GitDiff~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/GitDiff.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/GitHubDSL.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/GitHubDSL.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/GitHubDSL~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/GitHubDSL.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/GitLabDSL.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/GitLabDSL.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/GitLabDSL~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/GitLabDSL.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/CurrentPathProvider.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/CurrentPathProvider.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/CurrentPathProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/CurrentPathProvider.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/SwiftLint.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/SwiftLint.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/SwiftLint~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/SwiftLint.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/SwiftLintViolation.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/SwiftLintViolation.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/SwiftLintViolation~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/SwiftLintViolation.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/Plugins/SwiftLint/SwiftlintReportDeleter.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/SwiftlintReportDeleter.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/SwiftlintReportDeleter~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/SwiftlintReportDeleter.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/Report.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/Report.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/Report~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/Report.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/Danger/Settings.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/Settings.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/Settings~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Danger.build/Settings.swiftdeps"
+  }
+}

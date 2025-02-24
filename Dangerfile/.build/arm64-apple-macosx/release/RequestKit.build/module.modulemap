@@ -1,0 +1,4 @@
+module RequestKit {
+    header "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/RequestKit.build/RequestKit-Swift.h"
+    requires objc
+}

@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Dangerfile.build/Dangerfile.d",
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Dangerfile.build/Dangerfile.o",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Dangerfile.build/master.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/Sources/Dangerfile/Fake.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Dangerfile.build/Fake.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Dangerfile.build/Fake~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Dangerfile.build/Fake.swiftdeps"
+  }
+}

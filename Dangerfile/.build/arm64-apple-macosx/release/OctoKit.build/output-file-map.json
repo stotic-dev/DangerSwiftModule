@@ -1,0 +1,147 @@
+{
+  "": {
+    "dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/OctoKit.d",
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/OctoKit.o",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/master.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Configuration.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Configuration.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Configuration~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Configuration.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/File.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/File.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/File~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/File.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Follow.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Follow.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Follow~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Follow.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Gist.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Gist.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Gist~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Gist.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Git.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Git.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Git~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Git.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Issue.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Issue.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Issue~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Issue.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Label.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Label.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Label~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Label.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Milestone.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Milestone.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Milestone~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Milestone.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/NotificationThread.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/NotificationThread.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/NotificationThread~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/NotificationThread.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Octokit.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Octokit.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Octokit~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Octokit.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Organization.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Organization.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Organization~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Organization.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Parameters.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Parameters.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Parameters~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Parameters.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Plan.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Plan.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Plan~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Plan.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/PreviewHeader.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/PreviewHeader.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/PreviewHeader~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/PreviewHeader.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/PublicKey.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/PublicKey.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/PublicKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/PublicKey.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/PullRequest.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/PullRequest.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/PullRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/PullRequest.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Reactions.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Reactions.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Reactions~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Reactions.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Releases.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Releases.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Releases~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Releases.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Repositories.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Repositories.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Repositories~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Repositories.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Review.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Review.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Review~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Review.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Search.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Search.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Search~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Search.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Stars.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Stars.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Stars~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Stars.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Statuses.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Statuses.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Statuses~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Statuses.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/String+PercentEncoding.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/String+PercentEncoding.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/String+PercentEncoding~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/String+PercentEncoding.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Team.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Team.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Team~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Team.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/Time.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Time.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Time~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/Time.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/URL+URLParameters.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/URL+URLParameters.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/URL+URLParameters~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/URL+URLParameters.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/octokit.swift/OctoKit/User.swift": {
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/User.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/User~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/User.swiftdeps"
+  }
+}

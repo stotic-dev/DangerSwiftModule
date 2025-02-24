@@ -1,0 +1,9 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "c270621861983f93ea2fc7d9a028ff1ba20cc1ddae7c725943e444d85015b11f"
+build_start_time: [1740366820, 127213000]
+build_end_time: [1740366823, 526628000]
+inputs:
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/RequestKit/Sources/RequestKit/JSONPostRouter.swift": [1740366389, 470057357]
+  ? "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/RequestKit/Sources/RequestKit/RequestKitSession.swift"
+  : [1740366389, 470339342]
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/RequestKit/Sources/RequestKit/Router.swift": [1740366389, 470609286]
