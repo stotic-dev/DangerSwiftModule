@@ -30,7 +30,7 @@ playground.xcworkspace
 # .swiftpm
 
 # .build/
-Dangerfile/.build/checkouts/
+.build/checkouts
 # */workspace-state.json
 # Dangerfile/.build/plugins/cache/SwiftLintCommandPlugin-state.json
 

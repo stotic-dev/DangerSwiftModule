@@ -36,17 +36,9 @@ jobs:
       - name: Install Danger JS
         run: npm install -g danger
 
-      # dangerビルド
-      # - name: build spm danger
-      #   run: |
-      #     swift build
-      #     ls -l .build/arm64-apple-macosx/debug
-      #     mv .build/arm64-apple-macosx/debug/libDangerDeps.dylib ../.build/debug/libDangerDeps.dylib
-      #   working-directory: Dangerfile
-
       # dangerを実行
       - name: Analytics with danger
-        run: swift run --package-path Dangerfile danger-swift ci --dangerfile Dangerfile/Dangerfile.swift
+        run: swift run danger-swift ci
         env:
           # Dangerはプルリクエストを読み取ってコメントをするので、必要な権限を持ったGithubトークンを渡してあげる必要がある
           DANGER_GITHUB_API_TOKEN: ${{ secrets.DANGER_BOT_GITHUB_TOKEN }}

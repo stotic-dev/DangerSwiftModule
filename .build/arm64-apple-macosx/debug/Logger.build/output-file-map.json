@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/.build/arm64-apple-macosx/debug/Logger.build/master.swiftdeps"
+  },
+  "/Users/satoutaichi/work/swift/DangerSwiftModule/.build/checkouts/Logger/Sources/Logger/Logger.swift": {
+    "dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/.build/arm64-apple-macosx/debug/Logger.build/Logger.d",
+    "object": "/Users/satoutaichi/work/swift/DangerSwiftModule/.build/arm64-apple-macosx/debug/Logger.build/Logger.swift.o",
+    "swiftmodule": "/Users/satoutaichi/work/swift/DangerSwiftModule/.build/arm64-apple-macosx/debug/Logger.build/Logger~partial.swiftmodule",
+    "swift-dependencies": "/Users/satoutaichi/work/swift/DangerSwiftModule/.build/arm64-apple-macosx/debug/Logger.build/Logger.swiftdeps"
+  }
+}
