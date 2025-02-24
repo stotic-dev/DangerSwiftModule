@@ -1,4 +1,0 @@
-module Version {
-    header "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/Version.build/Version-Swift.h"
-    requires objc
-}

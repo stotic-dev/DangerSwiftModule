@@ -1,4 +1,0 @@
-module OctoKit {
-    header "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/OctoKit.build/OctoKit-Swift.h"
-    requires objc
-}

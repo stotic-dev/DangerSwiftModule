@@ -1,7 +1,0 @@
-version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
-options: "752d5f470ec80b4bde22243e1a52703f55a7efc83b872ac4db610751aa165a13"
-build_start_time: [1740366820, 134619000]
-build_end_time: [1740366823, 14542000]
-inputs:
-  ? "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/checkouts/swift/Sources/DangerShellExecutor/ShellExecutor.swift"
-  : [1740366390, 14012698]

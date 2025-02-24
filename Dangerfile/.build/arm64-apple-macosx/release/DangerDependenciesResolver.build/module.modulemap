@@ -1,4 +1,0 @@
-module DangerDependenciesResolver {
-    header "/Users/satoutaichi/work/swift/DangerSwiftModule/Dangerfile/.build/arm64-apple-macosx/release/DangerDependenciesResolver.build/DangerDependenciesResolver-Swift.h"
-    requires objc
-}
